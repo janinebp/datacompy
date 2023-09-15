@@ -2,6 +2,8 @@ Column Summary
 --------------
 
 Number of columns in common: {0}
-Number of columns in {3} but not in {4}: {1}
-Number of columns in {4} but not in {3}: {2}
+Number of columns in {5} but not in {6}: {1}
+{2}
+Number of columns in {6} but not in {5}: {3}
+{4}
 

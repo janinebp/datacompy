@@ -607,7 +607,9 @@ class Compare(BaseCompare):
             "column_summary.txt",
             len(self.intersect_columns()),
             len(self.df1_unq_columns()),
+            ", ".join(self.df1_unq_columns()),
             len(self.df2_unq_columns()),
+            ", ".join(self.df2_unq_columns()),
             self.df1_name,
             self.df2_name,
         )

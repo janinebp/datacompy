@@ -527,7 +527,9 @@ def report(
         "column_summary.txt",
         len(first["intersect_columns"]),
         len(first["df1_unq_columns"]),
+        ", ".join(first["df1_unq_columns"]),
         len(first["df2_unq_columns"]),
+        ", ".join(first["df2_unq_columns"]),
         df1_name,
         df2_name,
     )
